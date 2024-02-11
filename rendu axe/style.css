@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 26px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: yellow;
+}
+
+body{
+  width: 80%;
+  margin: 80px auto;
+}
+
+form{
+  border: 1px solid black;
+}
+
+form > div{
+  margin: 30px 20px;
+}
+
+label{
+  display: block;
+  margin-bottom: 8px;
+}
+
+
+input{
+  height: 20px;
+  width: 40%;
+}
+
+button{
+  margin-left: 20px;
+  margin-bottom: 30px;
+  padding: 10px 32px;
+  cursor: pointer;
+}
+
+
+.message-error{
+  border: 1px solid red;
+  color: red;
+  background-color: brown;
+  padding: 16px 32px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.message-success{
+  border: 1px solid green;
+  color: green;
+  background-color: greenyellow;
+  padding: 16px 32px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.message-success.visible {
+  display: block;
+}
+
+
+.success{
+  border: 1px solid green;
+  background-color: greenyellow;
+}
+
+
+
+
+.swiper{
+  width: 800px;
+  height: 500px;
+}
+
+.swiper-slide{
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 18px;
+  padding-left: 200px;
+}
+
+.title{
+  letter-spacing: 2px;
+  font-size: 24px;
+  color: blue;
+}
+
+.slidePOP{
+  background-image: url("téléchargement.jpeg");
+  background-size: cover;
+}
+
+.slideAC{
+  background-image: url("téléchargement\ \(4\).jpeg");
+  background-size: cover;
+}
+
+.slideLC{
+  background-image: url("téléchargement\ \(2\).jpeg");
+  background-size: cover;
+}
+
+.slideCOD{
+  background-image: url("téléchargement\ \(1\).jpeg");
+  background-size: cover;
+}
+
+.portfolio{
+  padding: 80px 40px;
+  background-color: aqua;
+
+}
+
+.portfolio-elements{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 50px 0;
+}
+
+.card{
+  width: 30%;
+  background-color: azure;
+
+}
+
+.card-header{
+  padding: 20px 40px;
+}
+
+.card-title{
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.card-axe{
+  font-size: 24px;
+  color: brown;
+  margin-top: 6px;
+}
+
+.card img{
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover ;
+}
+
+.filters{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.filters ul {
+  display: flex;
+  gap: 20px;
+}
+
+.filters li {
+  color: bisque;
+  background-color: blueviolet;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+.filters li.active{
+  background-color: cyan;
+}

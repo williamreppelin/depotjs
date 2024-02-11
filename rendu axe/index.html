@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel ="stylesheet" href="style.css">
+    
+  
+
+
+    
+    <title>Javascript</title>
+</head>
+<body>
+    
+<div class="swiper">
+   
+    <div class="swiper-wrapper">
+      
+      <div class="swiper-slide slideCOD">
+        <p class="subtitle">Multijoueur</p>
+        <p class="subtitle">Call of duty</p>
+      </div>
+      <div class="swiper-slide slideLC">
+        <p class="subtitle">Solo</p>
+        <p class="subtitle">Lapin Crétin</p>
+      </div>
+      <div class="swiper-slide slideAC">
+        <p class="subtitle">Solo</p>
+        <p class="subtitle">Assassin's creed</p>
+      </div>
+      <div class="swiper-slide slidePOP">
+        <p class="subtitle">Solo</p>
+        <p class="subtitle">Prince of persia</p>
+      </div>
+      
+    </div>
+    
+    <div class="swiper-pagination"></div>
+  
+   
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+ 
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+
+  <main class="portfolio">
+    <div class="filters">
+        <ul>
+            <li data-filter="all" class="active">Tous les projets</li>
+            <li data-filter="JL">Jeux en ligne</li>
+            <li data-filter="JS">Jeux solo  </li>
+        </ul>
+    </div>
+    <div class="portfolio-elements">
+        <div class="card filtr-item" data-category="JL">
+            <div class="card-header">
+                <p class="card-title"> Call of Duty</p>
+                <div class="card-jeux"> Jeux en ligne </div>
+            </div>
+            <a href="téléchargement (1).jpeg">
+                <img src="téléchargement (1).jpeg" alt="COD">
+            </a>
+        </div>
+        <div class="card filtr-item" data-category="JS">
+            <div class="card-header">
+                <p class="card-title"> Lapin Crétin</p>
+                <div class="card-jeux"> Jeux solo </div>
+            </div>
+            <a href="téléchargement (2).jpeg">
+                <img src="téléchargement (2).jpeg" alt="LC">
+            </a>
+        </div>
+        <div class="card filtr-item" data-category="JS">
+            <div class="card-header">
+                <p class="card-title"> Assassin's creed</p>
+                <div class="card-jeux"> Jeux solo </div>
+            </div>
+            <a href="téléchargement (2).jpeg">
+                <img src="téléchargement (4).jpeg" alt="AC">
+            </a>
+        </div>
+        <div class="card filtr-item" data-category="JS">
+            <div class="card-header">
+                <p class="card-title"> Prince of Persia</p>
+                <div class="card-jeux"> Jeux solo </div>
+            </div>
+            <a href="téléchargement (2).jpeg">
+                <img src="téléchargement.jpeg" alt="POP">
+            </a>
+        </div>
+
+    </div>
+
+  </main>
+
+
+  <div class="message-error">Formulaire non envoyé</div>
+  <div class="message-success">Formulaire envoyé</div>
+
+
+  <form action="" method="post" enctype="multipart/form-data">
+    <div>
+        <label for="Nom">Nom</label>
+        <input type="text" id="nom" name="nom" placeholder="Votre nom">
+    </div>
+    <div>
+        <label for="prénom">Prénom</label>
+        <input type="text" id="prénom" name="prénom" placeholder="Votre prénom">
+    </div>
+    <div>
+        <label for="email">e-mail</label>
+        <input type="email" id="email" name="email" placeholder="Votre E-mail">
+    </div>
+    <div>
+        <label for="téléphone">Téléphone</label>
+        <input type="number" id="téléphone" name="téléphone" placeholder="Votre téléphone">
+    </div>
+    <select name="votre jeux préféré" id="preferences">
+        <option value="COD">Call of Duty</option>
+        <option value="LC">Lapin crétin</option>
+        <option value="AC">Assassin's creed</option>
+        <option value="POP">Prince of persia</option>
+
+    </select>
+    <label for="story"> Envoie-nous un commentaire</label>
+    <textarea id="story" name="story" rows="5" cols="33">
+        commentaires:
+    </textarea>
+
+    <input type="reset" value="Remettre à 0">
+    <input type="submit" value="envoyer">
+
+
+
+
+
+  
+
+
+
+
+  </form>
+
+
+
+
+  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js" 
+    integrity="sha512-MMprw2AB5GAiQmXXEz5JYiGq2waU0iqD7Whj33m1w0V6Zzt1wyTFnr6rxWW8mfdQ/VksbUkU5c8sVGlO+3stew==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
